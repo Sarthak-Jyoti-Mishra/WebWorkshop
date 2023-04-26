@@ -495,26 +495,11 @@ video {
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
-.h-24 {
-  height: 6rem;
-}
-.h-full {
-  height: 100%;
-}
 .h-14 {
   height: 3.5rem;
 }
 .h-8 {
   height: 2rem;
-}
-.w-24 {
-  width: 6rem;
-}
-.w-full {
-  width: 100%;
-}
-.w-screen {
-  width: 100vw;
 }
 .w-14 {
   width: 3.5rem;
@@ -522,8 +507,11 @@ video {
 .w-8 {
   width: 2rem;
 }
-.max-w-7xl {
-  max-width: 80rem;
+.w-full {
+  width: 100%;
+}
+.w-screen {
+  width: 100vw;
 }
 .max-w-screen-2xl {
   max-width: 1536px;
@@ -542,9 +530,6 @@ video {
 }
 .gap-4 {
   gap: 1rem;
-}
-.p-4 {
-  padding: 1rem;
 }
 .p-2 {
   padding: 0.5rem;
